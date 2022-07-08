@@ -1,0 +1,14 @@
+body {
+  background-image: url(/src/Assets/img/maps.jpg);
+}
+
+.contentContainer {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer {
+  font-size: x-small;
+}
