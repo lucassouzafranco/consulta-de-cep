@@ -7,7 +7,6 @@ import './index.css';
 const App = () => {
   return (
     <>
-      <Menu/>
       <Content/>
       <Footer/>
     </>

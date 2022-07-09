@@ -1,2 +1,43 @@
-.footerContainer {
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #82A9A9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.containerText {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+
+.containerSocial {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  padding-top: 1.5vh;
+}
+
+.containerIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.icons {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  font-size:2vw;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #003250;
 }

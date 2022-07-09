@@ -1,5 +1,5 @@
 body {
-  background-image: url(/src/Assets/img/maps.jpg);
+  background-image: url(/src/Assets/img/maps1.jpg);
 }
 
 .contentContainer {
@@ -9,6 +9,36 @@ body {
   justify-content: center;
 }
 
+.cardContainer {
+  border-radius: 40px;
+}
+
 .textContainer {
-  font-size: x-small;
+  background-color: #82A9A9;
+  color: white;
+  text-align: center;
+  padding: 0.3em 0;
+  border-radius: 3px;
+}
+
+.inputStyle {
+  width: 13vw;
+  height: 3.8vh;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  margin-top: 0.8em;
+  justify-content: center;
+}
+
+.buttonStyle {
+  width: 13.1vw;
+  height: 3.5vh;
+  border-radius: 3px;
+  border: none;
+  outline: none;
 }
