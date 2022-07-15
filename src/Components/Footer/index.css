@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
 footer {
   display: flex;
   flex-direction: column;
@@ -6,12 +8,14 @@ footer {
   bottom: 0;
   left: 0;
   width: 100vw;
+  padding: 0.5em 0;
 }
 
 .containerText {
   display: flex;
   justify-content: center;
   font-size: small;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .containerSocial {

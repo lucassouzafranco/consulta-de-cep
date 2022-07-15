@@ -6,7 +6,7 @@ import {GoMarkGithub} from "@react-icons/all-files/go/GoMarkGithub";
 
 const Footer = () => {
   return(
-    <div className='footerContainer'>
+    <div>
       <footer>
         <div className='containerText'>
           <p>This page was built using ReactJS⚛️ and an API called <a href='https://docs.awesomeapi.com.br/'>Awesome API</a></p>

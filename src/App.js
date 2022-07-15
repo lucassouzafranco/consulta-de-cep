@@ -1,8 +1,8 @@
-import React from 'react';
-import Menu from './Components/Menu';
-import Content from './Components/Content';
-import Footer from './Components/Footer';
 import './index.css';
+import React from 'react';
+import Footer from './Components/Footer';
+import Content from './Components/Content';
+import Menu from './Components/Menu';
 
 const App = () => {
   return (
